@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: Checkout specific branch
         uses: actions/checkout@v2
+        with:
+          ref: update/mantennance-5
 
       - name: Setup .NET Core 9
         uses: actions/setup-dotnet@v1
